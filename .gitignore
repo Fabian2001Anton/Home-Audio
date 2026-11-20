@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Xcode: per-user settings and build output
+xcuserdata/
+DerivedData/
+build/
+
+# Mac helper binary (built by Rechner/mac-helfer/bauen.sh)
+Rechner/mac-helfer/heimaudio-helfer
+Rechner/mac-helfer/heimaudio-helfer.neu
+
+# Python
+__pycache__/
+*.pyc

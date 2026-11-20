@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "HeimAudio Tabs",
+  "version": "1.0",
+  "description": "Zeigt der HeimAudio-App auf dem iPhone die offenen Tabs und schließt sie auf Wunsch.",
+  "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtdQOfkBPPaaLSyiPfCIw+FicJmVn078g8kVKWRYox3TnO48rYpwruB4Ri4Ghr3dJ0Kn9HpfhURgA7obqApyFCb0wUJW2hkUsWSkPvNGWxGYKs6HUMwwU43UBcNRxTDav/jk7G3JcYS+T25re9QwuJfSvQbtMz78/cc0j/OoSFRUb/IpOJ5lJoJoaU6u+ZzZZ3yhVEaYanrwAWvW3noML4cq0nl6G8qDFhceT6zHoYVTW+on9CuuaykvivIfVJXVIfi7JL6hu/qm2DoLVAzy8g51BJAtH8CFRKy343KeSShIuWaZ4l73IGzIv1myslQ5EYmgdjSoB7IsKPKMo6JnvpQIDAQAB",
+  "permissions": [
+    "tabs",
+    "nativeMessaging",
+    "alarms"
+  ],
+  "background": {
+    "service_worker": "hintergrund.js"
+  },
+  "icons": {
+    "48": "symbol-48.png",
+    "128": "symbol-128.png"
+  },
+  "minimum_chrome_version": "116"
+}
